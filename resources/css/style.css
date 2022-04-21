@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(to right, rgb(62, 174, 202), rgb(78, 146, 163));
+   font-family:Arial, Helvetica, sans-serif;
+}
+
+.cronometro {
+    width: 50%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.cronometro h3 {
+    font-size: 40px;
+    color: #fff;
+}
+
+.cronometro #minutos,
+#segundos,
+#milis {
+    font-size: 25px;
+    color: #fff;
+
+}
+
+.cronometro button {
+    background: transparent;
+    color: white;
+    border: solid 1px white;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 18px 10px;
+    width: 25%;
+    margin: 1%;
+    transition: all 0.5s;
+}
+
+.cronometro button:hover {
+    color: black;
+    background-color: white;
+    transition: all 0.5s;
+}
+
+#log {
+    font-size: 20px;
+    color: #fff;
+
+}
